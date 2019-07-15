@@ -42,3 +42,7 @@ background-size: cover;
   color: #00008B;
   font-style: italic;
 }
+.row{
+  background-image: url("../images/akan.jpg");
+  color:#daa520
+}
