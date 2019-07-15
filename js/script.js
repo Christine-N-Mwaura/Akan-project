@@ -9,5 +9,8 @@ year = dob.slice(2,4);//to pick the last two values of the year input.
 month = document.getElementById('month').value;//get user input
 date = document.getElementById('day').value;
 
+var gender = document.querySelector('input[name = "gender"]:checked').value;//get value of the checked radio button.
+
+
 
 }
