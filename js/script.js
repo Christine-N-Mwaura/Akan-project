@@ -22,5 +22,14 @@ var days = ["Sunday", "Monday", "Tuesday", "Wednsday", "Thursday", "Friday", "Su
 var dayOfBirth = parseInt(((century / 4) - 2 * century - 1) + ((5 * year / 4)) + ((26 * (month + 1) / 10))) % 7;
 
 //control flows to check whether the person is male or female.
-
+if(gender === "Male"){
+  var mName = akanMName[dayOfBirth - 1]// -1 because index numbers begin from 0 and not 1
+  var day = days[dayOfBirth -1]
+  alert(" You were born on a " + day + "." + " Your name is "+ mName);
+    }
+else if (gender === "Female") {
+    var fName = akanFName[dayOfBirth - 1]
+    var day = days[dayOfBirth - 1]
+    alert(" You were born on " + day + "." + " Your name is "+ fName);
+    }
 }
