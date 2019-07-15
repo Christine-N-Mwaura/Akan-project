@@ -6,6 +6,7 @@
 ## Setup/Installation Requirements
 * A preferred text editor to view the code.
 * a browser is required to view the landing page.
+* to view the site use this link https://christine-n-mwaura.github.io/Akan-project/
 ##Behaviour Driven Development BDD
 {
 Story: Discover your Akan name.
