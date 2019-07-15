@@ -19,5 +19,8 @@ var akanFName = ["Akosu", "Adwoa", "Abenaa", "Akua", "Yaa", "Afua", "Amna"];
 var days = ["Sunday", "Monday", "Tuesday", "Wednsday", "Thursday", "Friday", "Sunday"];
 
 //This calculation returns a whole number representing the day of the week.
+var dayOfBirth = parseInt(((century / 4) - 2 * century - 1) + ((5 * year / 4)) + ((26 * (month + 1) / 10))) % 7;
+
+//control flows to check whether the person is male or female.
 
 }
