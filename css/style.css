@@ -32,3 +32,13 @@ background-image: url("../images/cute.jpg");
 background-repeat: no-repeat;
 background-size: cover;
 }
+
+.landing{
+  height: 400px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  color: #00008B;
+  font-style: italic;
+}
