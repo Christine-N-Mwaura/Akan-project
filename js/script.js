@@ -12,5 +12,12 @@ date = document.getElementById('day').value;
 var gender = document.querySelector('input[name = "gender"]:checked').value;//get value of the checked radio button.
 
 
+var akanMName = ["Kwasi", "Kwadwo", "Kwabena", "Kwaku", "Yaw", "Kofi", "Kwame"];
+
+var akanFName = ["Akosu", "Adwoa", "Abenaa", "Akua", "Yaa", "Afua", "Amna"];
+
+var days = ["Sunday", "Monday", "Tuesday", "Wednsday", "Thursday", "Friday", "Sunday"];
+
+//This calculation returns a whole number representing the day of the week.
 
 }
