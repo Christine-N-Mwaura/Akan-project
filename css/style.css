@@ -20,3 +20,15 @@ justify-content: center;
   font-size: 7px;
   background-color: #DDA0DD;
 }
+.jumbotron{
+  height: 400px;
+  width: 100%;
+  font-style:italic;
+  font-size: 7px;
+  background-color: #DDA0DD;
+}
+.landing{
+background-image: url("../images/cute.jpg");
+background-repeat: no-repeat;
+background-size: cover;
+}
